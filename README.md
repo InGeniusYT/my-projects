@@ -6,3 +6,6 @@ This repository contains all my projects with source code for adding it to my Gi
 
 # Is accessing the source code of these projects legal?
 Obviously, Yes because here nothing is illegal while taking the source code.
+
+
+**Chill and write the code **.
