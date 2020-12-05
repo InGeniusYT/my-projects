@@ -1,11 +1,12 @@
 import phonenumbers
-from test import number, number1
+from numbers import number, number1
 
 
 from phonenumbers import geocoder
 
 ch_number = phonenumbers.parse(number, "CH")
-print(geocoder.description_for_number(ch_number, "en"))
+defining_number = ch_number
+print(geocoder.description_for_number(defining_number, "en"))
 
 
 from phonenumbers import carrier
