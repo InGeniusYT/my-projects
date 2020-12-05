@@ -1,5 +1,5 @@
 import phonenumbers
-from numbers import number, number1
+from numbers import number_1, number_2
 
 
 from phonenumbers import geocoder
@@ -11,9 +11,8 @@ print(geocoder.description_for_number(defining_number, "en"))
 
 from phonenumbers import carrier
 
-service_number = phonenumbers.parse(number, "RO")
+service_number = phonenumbers.parse(number_1, "RO")
 
 defining_number = ch_number
 print(carrier.name_for_number(service_number, "en"))
-print(number)
 print(defining_number)
