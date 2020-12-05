@@ -4,7 +4,7 @@ from numbers import number_1, number_2
 
 from phonenumbers import geocoder
 
-ch_number = phonenumbers.parse(number, "CH")
+ch_number = phonenumbers.parse(number_1, "CH")
 defining_number = ch_number
 print(geocoder.description_for_number(defining_number, "en"))
 
